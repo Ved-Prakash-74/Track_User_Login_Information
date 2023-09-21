@@ -26,7 +26,7 @@ export default function MapWithLocation() {
           <iframe
             title="User Location"
             width="99.5%"
-            height="530px"
+            height="490px"
             src={`https://maps.google.com/maps?q=${latitude},${longitude}&z=15&output=embed`}
           ></iframe>
           :
