@@ -87,6 +87,10 @@ const Home = () => {
       <div className="mapscontainer">
         <SimpleMap />
       </div>
+
+       <div className="footer">
+        &copy; 2023 Copyright
+      </div>
     </div>
   )
 }
