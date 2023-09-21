@@ -46,7 +46,13 @@ export const getOsName = () => {
     else if (os.search('Linux') !== -1 && os.search('X11') !== -1) {
         return "Linux"
     }
+   else if (os.search('andriod')) {
+        return "Andriod"
+    }
+    else if (os.search('ios')) {
+        return "Apple"
+    }
     else {
-        return "Other OS"
+        return "Other OS";
     }
 }
