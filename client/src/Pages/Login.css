@@ -1,0 +1,161 @@
+body {
+    background-color: lemonchiffon;
+    font-family: Arial, sans-serif;
+}
+
+.container-main-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+}
+
+.container-main-2 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-left: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.img-1,
+.img-2 {
+    width: 15px;
+}
+
+.btn-login {
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.para {
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.btn-create {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    text-decoration: none;
+}
+
+button {
+    background-color: #007bff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btn-login {
+    background-color: #28a745;
+}
+
+.btn-login:hover {
+    background-color: #1e7e34;
+}
+
+.btn-create {
+    background-color: #ffc107;
+}
+
+.btn-create:hover {
+    background-color: #d39e00;
+}
+
+.text-danger {
+    padding: 10px;
+    color: red;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+    .container-main-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 85vh;
+    }
+
+    .container-main-2 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input {
+        margin-left: 0;
+    }
+
+    label {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .container-main-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 85vh;
+        margin: 20px;
+    }
+
+    .container-main-2 {
+        width: 100%;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+}

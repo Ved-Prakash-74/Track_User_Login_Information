@@ -1,0 +1,57 @@
+.nav {
+    min-height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav .nav-item {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+}
+
+.nav .nav-item:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav {
+        min-height: 50px;
+        padding: 5px 10px;
+    }
+
+    .nav .nav-item {
+        font-size: 16px;
+        padding: 8px 12px;
+        margin-right: 5px;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .nav {
+        min-height: 40px;
+        padding: 5px 10px;
+    }
+
+    .nav .nav-item {
+        font-size: 14px;
+        padding: 6px 10px;
+        margin-right: 5px;
+        border: none;
+    }
+}
