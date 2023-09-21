@@ -74,6 +74,15 @@
     cursor: pointer;
 }
 
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
 
 @media only screen and (max-width: 800px) {
     .home-container-2 {
