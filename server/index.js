@@ -11,6 +11,8 @@ app.use(express.json())
 // app.set('trust proxy' , true)
 app.use(cors())
 
+const PORT = process.env.port || 5000
+
 // const DATABASE = process.env.REACT_APP_DATABASE_URL
 // mongoose.connect(DATABASE)
 mongoose.connect(process.env.REACT_APP_DATABASE_URL)
@@ -95,7 +97,7 @@ app.get('/LoginHistory/:email', async (req, res) => {
 });
 
 
-app.listen(5000, () => {
-    console.log("Server running on port 5000")
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`)
 
 })
